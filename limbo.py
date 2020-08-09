@@ -158,7 +158,7 @@ def checkResults(result):
         x10000count +=1
     if x100count >= 750 or x1000count >= 7500 or x10000count >= 75000:
         running = False
-        print('we got a wild fuckin turkey, {} {} {}'.format(x100count,x1000count,x10000count))
+        print('we got a wild red streak , \nx100: {} \nx1000: {} \nx10000: {}\nhunt the one thats 7.5x higher then the payout value.'.format(x100count,x1000count,x10000count))
     else:
         print('')
         print('x100: {:<10}|{:<10}|x1k: {:<10}|{:<10}| x10k: {:<10}|{:<10}'.format(x100count,'{:.2f}'.format(lastx100),x1000count,'{:.2f}'.format(lastx1000),x10000count,'{:.2f}'.format(lastx10000)))
